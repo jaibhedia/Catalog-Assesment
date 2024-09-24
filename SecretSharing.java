@@ -11,7 +11,7 @@ public class SecretSharing {
         // Read the JSON file
         JSONParser parser = new JSONParser();
         try {
-            Object obj = parser.parse(new FileReader("input.json"));
+            Object obj = parser.parse(new FileReader("input2.json"));
             JSONObject jsonObject = (JSONObject) obj;
 
             // Get n and k from "keys"
